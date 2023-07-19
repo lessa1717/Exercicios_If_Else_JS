@@ -47,9 +47,9 @@
 
 
 
-const prompt = require(`prompt-sync`)()
+// const prompt = require(`prompt-sync`)()
 
-let numeroEsolhido;
+// let numeroEsolhido;
 // do {
 //     numeroEsolhido = prompt("Digite um numero: ");
 
@@ -59,11 +59,11 @@ let numeroEsolhido;
 //     numeroEsolhido = prompt("Digite um numero: ")
 // }
 
-let senha;
-do {
-    senha = prompt("Digite a senha: ")
-    if (senha != 123) {
-        console.log("senha incorreta");
-    }
+// let senha;
+// do {
+//     senha = prompt("Digite a senha: ")
+//     if (senha != 123) {
+//         console.log("senha incorreta");
+//     }
     
-} while (senha != "123");
+// } while (senha != "123");
